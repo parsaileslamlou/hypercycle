@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# C++
+build/
+*.o
+*.so
+*.dylib
+*.a
+
+# Data — NEVER commit collected data or encryption keys
+data/
+*.db
+*.duckdb
+*.parquet
+*.enc
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env
+.env.local
+*.pem
+
+# Node (frontend, later)
+node_modules/
+.next/
+out/
+
+# Jupyter
+.ipynb_checkpoints/
